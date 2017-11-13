@@ -6,3 +6,149 @@ html {
 	background-color: black;
 	opacity: 0.9;
 }
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+/*Header style*/
+
+header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	border-bottom: solid seashell 1px;
+	display: flex;
+	align-items: center;	
+	background-color: black;
+}
+header img {
+	padding-left: 10px;
+	height: 50px;
+}
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: underline;
+	padding-right: 20px;
+}
+a:link, a:visited {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+}
+
+/*Main section style*/
+
+main {
+	margin-top: 69px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.large {
+	display: flex;
+}
+h2 {
+	width: 100%;
+	display: block;
+	margin: 10px;
+}
+h4 {
+	margin: 0 auto;
+}
+h2, h3, h4, p {
+	width: 100%;
+	text-align: center;
+}
+
+/*Main section - Mission style*/
+
+#mission {
+	background-image: url("../resources/img-mission-background.jpg");
+	width: 1200px;
+	height: 700px;
+	-ms-align-items: center;
+	align-items: center;
+}
+#mission div {
+	height: 100px;
+	width: 100%;
+	background-color: black;
+	display: block;
+}
+
+/*Main section - Featured style*/
+
+#featured {
+	width: 1000px;
+	margin-top: 50px;
+	flex-wrap: wrap;
+}
+#featured p {
+	margin: 10px 0 20px 0;
+}
+.medium {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.medium div:nth-child(1) {
+	margin-left: 0;
+}
+.small {
+	width: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-left: 50px;
+}
+.small img {
+	height: 200px;
+	width: 300px;
+}
+
+/*Main section - Location style*/
+#location {
+	background-image: url("../resources/img-locations-background.jpg");
+	display: block;
+	width: 1200px;
+	height: 500px;
+	margin-top: 100px;	
+}
+#location .small {
+	background-color: black;
+	margin-left: 40px;
+	opacity: 1;
+	height: 300px;
+}
+#location .medium div:nth-child(1) {
+	margin-left: 0;
+}
+#location h2 {
+	margin: 70px 0 15px 0;
+}
+
+/*Footer style*/
+
+footer {
+	height: 200px;
+	margin-bottom: 30px;
+}
+footer h5 {
+	text-align: center;
+}
+footer p {
+	text-align: left;
+	padding-left: 20px;
+}
+
+
